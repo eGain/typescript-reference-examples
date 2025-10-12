@@ -70,11 +70,12 @@ const Search = () => {
           language: egainConfig.language,
         });
 
-        setResults(searchResults);
+        setResults(searchResults?.searchResults?.article);
         setHasSearched(true);
         setSearchedQuery(query);
       } catch (err) {
         setError(err.message || "Search failed");
+        console.error("Search error:", err);
         setHasSearched(true);
       } finally {
         setIsLoading(false);
