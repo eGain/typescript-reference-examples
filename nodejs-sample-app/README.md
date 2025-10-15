@@ -11,7 +11,7 @@ A Node.js application demonstrating eGain API integration for retrieving chunks 
 
 1. Create a new client application following the guide: [To Create a Client Application](https://apidev.egain.com/developer-portal/get-started/authentication_guide/#to-create-a-client-application)
 2. **Required Scopes**: Assign the following scopes to your client application:
-   - `core.aiservices.read`
+   - `app.core.aiservices.read`
 3. **Redirect URIs**: Configure the following URIs:
    - **Redirect URI**: `http://<hostname>/`
    - **Post Logout Redirect URI**: `http://<hostname>/`
