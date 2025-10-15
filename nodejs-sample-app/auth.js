@@ -27,7 +27,7 @@ class EGainAuth {
           grant_type: "client_credentials",
           client_id: this.clientId,
           client_secret: this.clientSecret,
-          scope: "core.aiservices.read",
+          scope: "app.core.aiservices.read",
         },
         {
           headers: {
